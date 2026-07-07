@@ -1,0 +1,23 @@
+title: Qtest
+author: Patrick Callahan
+version: 1.0.0
+quarto-required: ">=1.9.0"
+contributes:
+  project:
+    project:
+      type: website
+    website:
+      sidebar:
+        contents: auto
+        search: true
+        style: docked
+      page-footer: |
+        "Copyright 2022, Lexcorp, Inc."
+    format: qtest-html+testing
+  formats:
+    html:
+      toc: true
+      theme: [yeti, custom.scss]
+    html+testing:
+      toc: false
+      theme: [spacelab]
