@@ -33,3 +33,20 @@ I think the only option currently is to use separate repos if both extensions ar
 ## Example
 
 Here is the source code for a minimal sample document: [example.qmd](example.qmd).
+
+
+# Notes
+
+## Embedding
+
+* Embedding the osc-brand extension inside of qtest2 made the brand.yml file available immediately to the qtest2 extension to be referenced as normal i.e. Quarto resolves the path automatically or promotes the brand.yml file:
+
+```yaml
+contributes:
+  metadata:
+    project:
+      brand: brand.yml
+```
+
+* The scss file in the embedded extension is not promoted, but can create a dependency by referencing the path to the file with `_extensions/lmu-osc/osc-brand/lmu-osc-custom.scss`
+* The iamges referenced in `brand.yml` also seem to have their paths resolved correctly.

@@ -1,2 +1,5 @@
+# can switch back and forth between the project types exported by the extensions for testing
+
 project:
+  #   type: qtest
   type: qtest2
