@@ -13,7 +13,7 @@ contributes:
         style: docked
       page-footer: |
         "This is the evil twin extension"
-    format: qtest-html+hello
+    format: qtest2-html+hello
   formats:
     html+hello:
       toc: false
