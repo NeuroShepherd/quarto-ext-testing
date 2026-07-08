@@ -3,3 +3,9 @@
 project:
   #   type: qtest
   type: qtest2
+
+website:
+  navbar:
+    left:
+      - href: apage.qmd
+        text: A Page
