@@ -6,7 +6,7 @@ contributes:
   project:
     project:
       type: website
-      resources:
+      format-resources:
         - .github/**
     website:
       sidebar:
