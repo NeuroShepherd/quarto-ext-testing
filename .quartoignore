@@ -1,1 +1,4 @@
-!.github/workflows/publish.yaml
+!.*
+.git/
+.quarto/
+.posit/
