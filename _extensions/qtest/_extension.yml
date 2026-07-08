@@ -22,4 +22,4 @@ contributes:
       toc: false
       theme: [spacelab]
       format-resources:
-        - .github/**
+        - .github/workflows/publish.yaml
