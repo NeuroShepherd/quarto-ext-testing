@@ -6,8 +6,6 @@ contributes:
   project:
     project:
       type: website
-      format-resources:
-        - .github/**
     website:
       sidebar:
         contents: auto
@@ -23,3 +21,5 @@ contributes:
     html+testing:
       toc: false
       theme: [spacelab]
+      format-resources:
+        - .github/**
