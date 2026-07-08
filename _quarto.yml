@@ -1,8 +1,6 @@
-# can switch back and forth between the project types exported by the extensions for testing
-
 project:
-  #   type: qtest
-  type: qtest2
+  title: "My Qtest Project"
+  type: qtest
   resources:
     - .github/workflows/publish.yaml
 
