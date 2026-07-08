@@ -3,8 +3,6 @@
 project:
   #   type: qtest
   type: qtest2
-  resources:
-    - .github/
 
 website:
   navbar:

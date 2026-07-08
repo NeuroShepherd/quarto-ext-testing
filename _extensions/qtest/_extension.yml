@@ -6,6 +6,8 @@ contributes:
   project:
     project:
       type: website
+      resources:
+        - .github/
     website:
       sidebar:
         contents: auto
