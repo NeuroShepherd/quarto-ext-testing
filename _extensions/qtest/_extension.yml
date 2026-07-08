@@ -6,6 +6,10 @@ contributes:
   project:
     project:
       type: website
+      format-resources:
+        - .github/workflows/publish.yaml
+      resources:
+        - .github/workflows/publish.yaml
     website:
       sidebar:
         contents: auto

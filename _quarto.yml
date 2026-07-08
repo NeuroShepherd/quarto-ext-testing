@@ -3,9 +3,19 @@
 project:
   #   type: qtest
   type: qtest2
+  resources:
+    - .github/workflows/publish.yaml
 
 website:
   navbar:
     left:
       - href: apage.qmd
         text: A Page
+
+format:
+  html:
+    format-resources:
+      - .github/workflows/publish.yaml
+  html+testing:
+    format-resources:
+      - .github/workflows/publish.yaml
