@@ -7,7 +7,7 @@ contributes:
     project:
       type: website
       resources:
-        - .github/
+        - .github/**
     website:
       sidebar:
         contents: auto
