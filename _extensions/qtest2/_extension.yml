@@ -3,7 +3,18 @@ author: Patrick Callahan
 version: 1.0.0
 quarto-required: ">=1.9.0"
 contributes:
+  project:
+    project:
+      type: website
+    website:
+      sidebar:
+        contents: auto
+        search: true
+        style: docked
+      page-footer: |
+        "This is the evil twin extension"
+    format: qtest-html+hello
   formats:
     html+hello:
       toc: false
-      theme: [spacelab]
+      theme: [darkly]
