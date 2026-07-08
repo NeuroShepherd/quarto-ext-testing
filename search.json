@@ -1,0 +1,13 @@
+[
+  {
+    "objectID": "template.html",
+    "href": "template.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "Color badges\nPrimary Secondary Success Info Warning Danger\n\n\nAlerts\n\nThis is a primary alert using the brand’s primary color.\n\n\nThis is a secondary alert using the brand’s secondary color.\n\n\nThis is a success alert using the brand’s success color.\n\n\nThis is an info alert using the brand’s info color.\n\n\n\nButtons\n\nPrimary action Secondary action Success Info Warning Danger\n\n\n\nProgress\n\n\nPrimary 68%\n\n\n\n\nSecondary 42%\n\n\n\n\nInfo 24%\n\n\n\n\nCards\n\n  \n    \n      Primary\n      \n        Brand anchor\n        Use the primary color for the main action or strongest emphasis.\n      \n    \n  \n  \n    \n      Secondary\n      \n        Supporting state\n        The secondary color is useful for quieter supporting UI and neutral emphasis.\n      \n    \n  \n  \n    \n      Info\n      \n        Informational state\n        Use the info color for helpful notes, tips, and contextual guidance.\n      \n    \n  \n  \n    \n      Danger\n      \n        Attention state\n        Reserve the danger color for destructive or error-related feedback.\n      \n    \n  \n\n\n\nInline code and links\nHere is some inline code: def foo(x): return x and y and z.\nHere is a link.\n\n\nCode block\n# | echo: true\nfibonacci &lt;- function(n) {\n  if (n &lt;= 0) {\n    return(NULL)\n  } else if (n == 1) {\n    return(0)\n  } else if (n == 2) {\n    return(1)\n  } else {\n    return(fibonacci(n - 1) + fibonacci(n - 2))\n  }\n}\n\n\nImages\nBrand images can be accessed with the {{&lt; brand logo NAME &gt;}} shortcode. Available options include:\n\nIcon, default, dark: these are the underlying image labels. However, shoull use the superset of these:\nSmall, medium, large: small maps to the icon (or favicon), and medium and large are currently set to use the General Logo (and to swap the colors accordingly with light/dark mode–this is the main motivator to use these labels instead of the other ones!)\n\n\nFavicon\n{{&lt; brand logo small &gt;}}\n\n\n\n\nGeneral Logo\n\nMedium\n{{&lt; brand logo medium &gt;}}\n\n\nNote that if you switch to dark mode, the “LMU Open Science Center” text switches to white. This functions not because the actual text color is changing, but because a different image is swapped in. That is, the the medium logo has a light mode and dark mode image defined.\n\n\nLarge\nThe large logo is essentially the same, but without a dark mode option available at this time.\n{{&lt; brand logo large &gt;}}",
+    "crumbs": [
+      "A Page",
+      "Untitled"
+    ]
+  }
+]
