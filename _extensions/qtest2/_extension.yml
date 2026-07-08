@@ -1,8 +1,0 @@
-title: Qtest2
-author: Patrick Callahan
-version: 1.0.0
-quarto-required: ">=1.9.0"
-contributes:
-  html+hello:
-    toc: false
-    theme: [spacelab]
