@@ -1,4 +1,1 @@
-!.*
-.git/
-.quarto/
-.posit/
+.github/workflows/*
